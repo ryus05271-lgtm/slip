@@ -1,0 +1,16 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Build and test
+          command: echo "Add your project's build and test commands here."
+
+workflows:
+  build:
+    jobs:
+      - build
