@@ -10,20 +10,13 @@ jobs:
   build-debug-apk:
     executor: android-builder
     steps:
-      # 1. Checkout kode dari GitHub
       - checkout
 
-      # 2. Beri izin eksekusi pada Gradle Wrapper
-      - run:
-          name: Chmod gradlew
-          command: chmod +x ./gradlew
-
-      # 3. Jalankan build APK Debug
+      # Menggunakan gradle bawaan sistem (tanpa butuh gradlew)
       - run:
           name: Build Debug APK
-          command: ./gradlew assembleDebug
+          command: gradle assembleDebug
 
-      # 4. Simpan file APK sebagai Artifacts agar bisa diunduh
       - store_artifacts:
           path: app/build/outputs/apk/debug/app-debug.apk
           destination: app-debug.apk
