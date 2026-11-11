@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PT.SJI Industrial Color Palette -->
+    <color name="colorPrimary">#5A3825</color>
+    <color name="colorPrimaryDark">#3D2314</color>
+    <color name="colorAccent">#D97706</color>
+    <color name="colorBrownCopper">#B86B35</color>
+    <color name="colorCreamBase">#FAF7F2</color>
+    <color name="colorCreamTan">#E8DFD3</color>
+    <color name="colorTextDark">#2C2C2C</color>
+    <color name="colorTextMuted">#718096</color>
+    <color name="colorWhite">#FFFFFF</color>
+</resources>
+

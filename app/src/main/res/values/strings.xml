@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PT.SJI Slip Gaji</string>
+    <!-- URL default server: gunakan IP Wi-Fi komputer atau domain hosting Anda -->
+    <string name="server_url">http://192.168.1.16/sji/</string>
+    <string name="error_offline">Gagal Terhubung ke Server PT.SJI</string>
+    <string name="error_offline_desc">Pastikan perangkat Android Anda terhubung ke jaringan Wi-Fi pabrik atau koneksi internet yang sama dengan server.</string>
+    <string name="btn_retry">Coba Lagi</string>
+    <string name="msg_exit">Tekan sekali lagi untuk keluar dari aplikasi</string>
+    <string name="downloading">Mengunduh berkas...</string>
+</resources>
+
